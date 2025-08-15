@@ -1,0 +1,25 @@
+{
+  "name": "realtime-websocket-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node src/test.js"
+  },
+  "dependencies": {
+    "yjs": "^13.6.10",
+    "y-websocket": "^1.5.0",
+    "ws": "^8.14.2",
+    "jsonwebtoken": "^9.0.2",
+    "level": "^8.0.0",
+    "mongodb": "^6.3.0",
+    "redis": "^4.6.11",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

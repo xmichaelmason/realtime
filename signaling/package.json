@@ -1,0 +1,16 @@
+{
+  "name": "realtime-signaling-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/signaling.js",
+  "scripts": {
+    "start": "node src/signaling.js",
+    "dev": "node --watch src/signaling.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "jsonwebtoken": "^9.0.2",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
