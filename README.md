@@ -1,6 +1,6 @@
 # Real-time Collaborative Editing Application
 
-A production-ready real-time collaborative editing application built with:
+A real-time collaborative editing application built with:
 
 - **Frontend**: Svelte 5 (Vite)
 - **CRDT**: Yjs for conflict-free collaborative editing
